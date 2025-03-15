@@ -1,0 +1,67 @@
+Titanic Dataset Analysis
+
+Task 2: Exploratory Data Analysis (EDA)
+Problem Statement:
+Perform exploratory data analysis on a chosen dataset.
+
+Overview
+
+This project explores the Titanic dataset to analyze survival patterns based on different features like gender, age, ticket class, and family size. The notebook includes data cleaning, exploratory data analysis (EDA), feature engineering, and correlation analysis to derive meaningful insights.
+
+Dataset Description
+
+The dataset consists of passenger details from the Titanic disaster, including:
+
+PassengerId: Unique identifier for each passenger
+
+Survived: Target variable (1 = survived, 0 = did not survive)
+
+Pclass: Ticket class (1st, 2nd, 3rd)
+
+Name, Sex, Age: Personal details
+
+SibSp, Parch: Number of siblings/spouses and parents/children aboard
+
+Ticket, Fare: Ticket details
+
+Cabin: Cabin number (many missing values)
+
+Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+
+Key Steps in Analysis
+
+1. Data Preprocessing
+
+Handled missing values in Age, Embarked, and Cabin.
+
+Converted categorical variables (Sex, Embarked) into numeric format.
+
+Created a FamilySize feature (SibSp + Parch + 1).
+
+2. Exploratory Data Analysis (EDA)
+
+Visualized survival rates based on gender, class, age groups, and family size.
+
+Observed that:
+
+Women had a higher survival rate (~74%).
+
+1st class passengers survived more than 3rd class.
+
+Traveling alone reduced survival chances.
+
+3. Correlation Matrix
+
+Strong correlations with survival:
+
+Sex: -0.54 (women had higher survival rates)
+
+Pclass: -0.34 (higher class passengers had better survival chances)
+
+Fare: 0.26 (higher ticket prices correlated with survival)
+
+SibSp & Parch: 0.41 (family size affected survival rates)
+
+Key Findings
+
+✅ Women and children had a significantly higher survival rate.✅ Higher-class passengers had better survival odds.✅ Traveling alone reduced survival chances.✅ Wealthier passengers (higher Fare) were more likely to survive.
