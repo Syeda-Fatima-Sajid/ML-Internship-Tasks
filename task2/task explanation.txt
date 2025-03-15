@@ -36,7 +36,6 @@ Handled missing values in Age, Embarked, and Cabin.
 
 Converted categorical variables (Sex, Embarked) into numeric format.
 
-Created a FamilySize feature (SibSp + Parch + 1).
 
 2. Exploratory Data Analysis (EDA)
 
